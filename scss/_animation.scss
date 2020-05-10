@@ -1,0 +1,40 @@
+@keyframes icon-btn {
+    from {
+        transform: translateX(0rem);
+    }
+
+    to {
+        transform: translateX(-0.5rem);
+    }
+}
+
+@keyframes bg-top-1 {
+    100% {
+        transform: translate(-1rem, 1rem);
+    }
+}
+
+@keyframes bg-top-2 {
+    100% {
+        transform: translate(2rem, 0) rotate(-10deg);
+    }
+}
+
+@keyframes bg-top-3 {
+    100% {
+        transform: translate(2rem, 0);
+    }
+}
+
+// Box
+@keyframes box-up {
+    100% {
+        transform: rotate(30deg);
+    }
+}
+
+@keyframes box-main {
+    100% {
+        transform: translateY(-30px);
+    }
+}

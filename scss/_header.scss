@@ -1,0 +1,38 @@
+header {
+    padding-top: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: $zindex-fixed;
+    transition: all 1s ease;
+
+    .logo {
+        width: 160px;
+    }
+
+    .btn {
+        border: 2px solid $primary-light;
+        border-radius: 10rem;
+        box-shadow: 0 0 10px $primary-light;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        color: $white;
+
+        span {
+            display: inline-block;
+            animation: icon-btn 1s ease-in-out infinite alternate;
+        }
+
+        &:hover {
+            background-color: rgba($white, .1);
+            color: $white;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        .logo {
+            width: 180px;
+        }
+    }
+}

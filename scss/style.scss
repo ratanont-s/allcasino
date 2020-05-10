@@ -1,0 +1,15 @@
+// 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
+@import './variables';
+@import './animation';
+
+// Bootstrap
+@import './bootstrap/bootstrap.scss';
+
+// Layout
+@import './header';
+@import './main';
+@import './footer';
+
+// Landing
+@import './landing';
